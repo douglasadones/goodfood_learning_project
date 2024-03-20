@@ -1,0 +1,11 @@
+:root {
+    --orange: #FFBA3A;
+}
+
+form {
+    opacity: 100%;
+}
+
+form ::placeholder {
+    font-size: large;
+}
