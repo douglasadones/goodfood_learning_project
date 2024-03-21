@@ -15,7 +15,12 @@ form ::placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 440px;
     border-radius: 40px;
     margin-bottom: 25px;
+}
+
+.max-page-width {
+
+    max-width: 80%;
 }
