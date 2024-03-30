@@ -16,7 +16,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-white px-5 py-3 d-flex justify-content-around pb-5">
+    <!-- <nav class="navbar navbar-expand-lg bg-white px-5 py-3 d-flex justify-content-around pb-5">
         <div>
             <a class="navbar-brand fw-bold " href="#">Good<span style="color: var(--orange)">Food</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -27,16 +27,16 @@
         <div>
             <ul class="navbar-nav gap-4">
                 <li class="nav-item">
-                    <a class="nav-link active fw-medium" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active fw-medium" href="#">Menu</a>
+                    <a class="nav-link active" href="#">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active fw-medium" href="#">Booking</a>
+                    <a class="nav-link active" href="#">Booking</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active fw-medium" href="#">Pricing</a>
+                    <a class="nav-link active" href="#">Pricing</a>
                 </li>
             </ul>
         </div>
@@ -46,24 +46,52 @@
                     style="width: 130px">Login</button>
             </div>
         </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand fw-bold" href="#">Good<span style="color: var(--orange)">Food</span></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Pricing</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-secondary rounded-pill bg-black"
+                    style="width: 130px">Login</button>
+            </div>
+        </div>
     </nav>
     <!-- NAVBAR -->
 
     <!-- Main content -->
-    <section>
-
-        <div class="max-page-width d-flex container">
+    <section class="container">
+        <div class="row container">
             <!--Left Div-->
-            <div class="pt-4">
-
+            <div class="pt-4 col-lg-5 col-md-6 col-sm-12">
                 <!-- Text -->
-                <div class="col d-inline my-5 pt-5">
+                <div class="col my-5">
                     <h1 class="fw-bolder display-4" style="color: #302C2C">
                         Fresh Food <br> With great Taste
                     </h1>
                 </div>
                 <div>
-                    <p style="line-height: 30px; font-size: 20px;">
+                    <p class="pb-5" style="line-height: 30px; font-size: 20px;">
                         Overall, "Creating Delicious Dishes" is an essential <br> resource for anyone looking to
                         start a food busisness <br> or take their culinary skills to the next level.
                     </p>
@@ -72,8 +100,8 @@
                 <!-- Text -->
 
                 <!-- TextInput -->
-                <div class="pb-5 mt-5 mb-4">
-                    <form class="col-11 mb-5 pb-4 pt-5" role="search">
+                <div class="pb-5 mt-3">
+                    <form class="col-11 mb-5 pt-3" role="search">
                         <div class="shadow rounded-pill input-group flex-nowrap">
                             <input
                                 class=" border-black border-opacity-50  form-control rounded-end-0 border-end-0  rounded-pill px-5"
@@ -91,8 +119,8 @@
                 <!-- TextInput -->
 
                 <!--Vertical Pill Widgets  -->
-                <div class="row pt-5 d-flex">
-                    <div class="col-1 d-flex">
+                <div class="row d-flex">
+                    <div class="col-1 d-flex ">
                         <i class="bi bi-chevron-left" style="font-size: 20px; color:#b3b3b3; margin-top: 80px;"></i>
                     </div>
 
@@ -152,10 +180,11 @@
 
 
             <!--Right Div-->
-            <div class="container col-7 pe-5">
-                <div class="pb-4">
+            <div class="row container col-lg-6 col-md-6 col-sm-12">
+                <div class="pb-4 pt-5 ">
                     <div class="col-12 card border-0 pb-4">
-                        <img src="img/blog10-1024x683.jpeg" class="shadow img-fluid rounded-5 card-img" alt="Imagem responsiva">
+                        <img src="img/blog10-1024x683.jpeg" class="shadow img-fluid rounded-5 card-img"
+                            alt="Imagem responsiva">
                         <div class="card-img-overlay">
                             <div class="card-body">
                                 <p class="card-text text-white fw-bolder" style="padding-top: 50%; font-size: 30px;">
@@ -179,7 +208,8 @@
                     </div>
                     <div class="col container d-flex pb-4 gap-3">
                         <div class="col-6 card border-0">
-                            <img src="img/prato1.jpeg" class="shadow img-fluid rounded-5 card-img" alt="Imagem responsiva">
+                            <img src="img/prato1.jpeg" class="shadow img-fluid rounded-5 card-img"
+                                alt="Imagem responsiva">
                             <div class="card-img-overlay">
                                 <div class="card-body">
                                     <p class="card-text text-white fw-bolder" style="padding-top: 40%;">
@@ -202,6 +232,13 @@
             </div>
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

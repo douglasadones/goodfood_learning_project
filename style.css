@@ -22,6 +22,6 @@ form ::placeholder {
 }
 
 .max-page-width {
-    max-width: 81%;
+    /* max-width: 81%; */
     /* margin-left: 12% !important; */
 }
